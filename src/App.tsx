@@ -103,7 +103,7 @@ function App() {
             <div className={`card ${flipped[0] ? 'flipped' : ''}`}>
               <div className="card-front">
                 <img
-                  src={`/cards/${selectedCards[0].card.image}`}
+                  src={`cards/${selectedCards[0].card.image}`}
                   alt={selectedCards[0].card.name}
                   className="card-image"
                 />
@@ -118,11 +118,11 @@ function App() {
               {selectedCards.map((item, index) => (
                 <div key={index} className={`card ${flipped[index] ? 'flipped' : ''}`}>
                   <div className="card-front">
-                    <img
-                      src={`/cards/${item.card.image}`}
-                      alt={item.card.name}
-                      className="card-image"
-                    />
+                <img
+                  src={`cards/${item.card.image}`}
+                  alt={item.card.name}
+                  className="card-image"
+                />
                   </div>
                   <div className="card-name-container">
                     <span className="card-name">{item.card.name}</span>
