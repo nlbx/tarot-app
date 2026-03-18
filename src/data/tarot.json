@@ -1,0 +1,706 @@
+{
+  "cards": [
+    {
+      "id": "00",
+      "name": "Шут",
+      "nameEn": "The Fool",
+      "type": "major",
+      "image": "shut.jpg",
+      "meaning": "Новое начало, авантюра, spontaneity, ребячество. Приглашение отбросить顾虑 и отправиться в путешествие.",
+      "reverse": "Безрассудство, импульсивность, отказ от ответственности."
+    },
+    {
+      "id": "01",
+      "name": "Маг",
+      "nameEn": "The Magician",
+      "type": "major",
+      "image": "mag.jpg",
+      "meaning": "Сила воли, skill, манифестация. У вас есть все ресурсы для успеха.",
+      "reverse": "Манипуляции, отсутствие направления."
+    },
+    {
+      "id": "02",
+      "name": "Жрица",
+      "nameEn": "The High Priestess",
+      "type": "major",
+      "image": "zhrica.jpg",
+      "meaning": "Интуиция, тайны, подсознание. Доверяйте своим внутренним ощущениям.",
+      "reverse": "Секреты раскрыты, недостаток интуиции."
+    },
+    {
+      "id": "03",
+      "name": "Императрица",
+      "nameEn": "The Empress",
+      "type": "major",
+      "image": "impress.jpg",
+      "meaning": "Изобилие, творчество, забота. Рост и процветание.",
+      "reverse": "Зависимость, чрезмерная опека."
+    },
+    {
+      "id": "04",
+      "name": "Император",
+      "nameEn": "The Emperor",
+      "type": "major",
+      "image": "imperor.jpg",
+      "meaning": "Власть, структура, дисциплина. Взятие под контроль.",
+      "reverse": "Тиранство, жесткость."
+    },
+    {
+      "id": "05",
+      "name": "Жрец",
+      "nameEn": "The Hierophant",
+      "type": "major",
+      "image": "hierofant.jpg",
+      "meaning": "Традиции, вера, образование. Следование установленным нормам.",
+      "reverse": "Нонконформизм, сомнение."
+    },
+    {
+      "id": "06",
+      "name": "Влюблённые",
+      "nameEn": "The Lovers",
+      "type": "major",
+      "image": "lovers.jpg",
+      "meaning": "Выбор, отношения, ценности. Принятие важного решения.",
+      "reverse": "Дисгармония, сомнения."
+    },
+    {
+      "id": "07",
+      "name": "Колесница",
+      "nameEn": "The Chariot",
+      "type": "major",
+      "image": "chariot.jpg",
+      "meaning": "Определённость, контроль, побежда. Продвигайтесь к цели.",
+      "reverse": "Отсутствие направления, агрессия."
+    },
+    {
+      "id": "08",
+      "name": "Сила",
+      "nameEn": "Strength",
+      "type": "major",
+      "image": "strenghch.jpg",
+      "meaning": "Храбрость, сострадание, внутренняя сила.",
+      "reverse": "Самосомнение, слабость."
+    },
+    {
+      "id": "09",
+      "name": "Отшельник",
+      "nameEn": "The Hermit",
+      "type": "major",
+      "image": "hermit.jpg",
+      "meaning": "Интроспекция, одиночество, мудрость. Поиск ответов внутри.",
+      "reverse": "Изоляция, отстранение."
+    },
+    {
+      "id": "10",
+      "name": "Колесо Фортуны",
+      "nameEn": "Wheel of Fortune",
+      "type": "major",
+      "image": "fortune.jpg",
+      "meaning": "Удача, судьба, поворот. Положительные изменения.",
+      "reverse": "Невезение, отрицательные обстоятельства."
+    },
+    {
+      "id": "11",
+      "name": "Правосудие",
+      "nameEn": "Justice",
+      "type": "major",
+      "image": "justise.jpg",
+      "meaning": "Справедливость, истина, закон. Баланс.",
+      "reverse": "Несправедливость, предвзятость."
+    },
+    {
+      "id": "12",
+      "name": "Повешенный",
+      "nameEn": "The Hanged Man",
+      "type": "major",
+      "image": "hanged_men.jpg",
+      "meaning": "Перерыв, новая перспектива, жертва.",
+      "reverse": "Задержки, сопротивление."
+    },
+    {
+      "id": "13",
+      "name": "Смерть",
+      "nameEn": "Death",
+      "type": "major",
+      "image": "death.jpg",
+      "meaning": "Конец, преобразование, освобождение.",
+      "reverse": "Застой, сопротивление изменениям."
+    },
+    {
+      "id": "14",
+      "name": "Умеренность",
+      "nameEn": "Temperance",
+      "type": "major",
+      "image": "temperam.jpg",
+      "meaning": "Баланс, терпение, умеренность.",
+      "reverse": "Дисбаланс, нетерпение."
+    },
+    {
+      "id": "15",
+      "name": "Дьявол",
+      "nameEn": "The Devil",
+      "type": "major",
+      "image": "devil.jpg",
+      "meaning": "Привязанность, материализм, ограниченность.",
+      "reverse": "Освобождение, самоосознание."
+    },
+    {
+      "id": "16",
+      "name": "Башня",
+      "nameEn": "The Tower",
+      "type": "major",
+      "image": "tower.jpg",
+      "meaning": "Внезапный кризис, потрясение, истина.",
+      "reverse": "Избежание кризиса, медленные изменения."
+    },
+    {
+      "id": "17",
+      "name": "Звезда",
+      "nameEn": "The Star",
+      "type": "major",
+      "image": "stare.jpg",
+      "meaning": "Надежда, вдохновение, духовность.",
+      "reverse": "Отсутствие надежды, разочарование."
+    },
+    {
+      "id": "18",
+      "name": "Луна",
+      "nameEn": "The Moon",
+      "type": "major",
+      "image": "moon.jpg",
+      "meaning": "Иллюзия, страхи, подсознание.",
+      "reverse": "Ясность, раскрытие тайны."
+    },
+    {
+      "id": "19",
+      "name": "Солнце",
+      "nameEn": "The Sun",
+      "type": "major",
+      "image": "sun.jpg",
+      "meaning": "Удача, веселье, успех.",
+      "reverse": "Временные трудности."
+    },
+    {
+      "id": "20",
+      "name": "Суд",
+      "nameEn": "Judgement",
+      "type": "major",
+      "image": "sud.jpg",
+      "meaning": "Переоценка, прощение, пробуждение.",
+      "reverse": "Самокритика, отсутствие решения."
+    },
+    {
+      "id": "21",
+      "name": "Мир",
+      "nameEn": "The World",
+      "type": "major",
+      "image": "world.jpg",
+      "meaning": "Завершение, цель, единство.",
+      "reverse": "Незавершенность."
+    },
+    {
+      "id": "c1",
+      "name": "Мечи Туз",
+      "nameEn": "Ace of Swords",
+      "type": "minor",
+      "image": "swords01.jpg",
+      "meaning": "Прорыв, ясность, сила.",
+      "reverse": "Недостаток ясности."
+    },
+    {
+      "id": "c2",
+      "name": "Мечи Двойка",
+      "nameEn": "Two of Swords",
+      "type": "minor",
+      "image": "swords02.jpg",
+      "meaning": "Равновесие, неопределенность.",
+      "reverse": "Конфликт."
+    },
+    {
+      "id": "c3",
+      "name": "Мечи Тройка",
+      "nameEn": "Three of Swords",
+      "type": "minor",
+      "image": "swords03.jpg",
+      "meaning": "Разочарование, боль.",
+      "reverse": "Излечение."
+    },
+    {
+      "id": "c4",
+      "name": "Мечи Четверка",
+      "nameEn": "Four of Swords",
+      "type": "minor",
+      "image": "swords04.jpg",
+      "meaning": "Покой, перерыв.",
+      "reverse": "Избыток энергии."
+    },
+    {
+      "id": "c5",
+      "name": "Мечи Пятёрка",
+      "nameEn": "Five of Swords",
+      "type": "minor",
+      "image": "swords05.jpg",
+      "meaning": "Конфликт, потеря.",
+      "reverse": "Переосмысление."
+    },
+    {
+      "id": "c6",
+      "name": "Мечи Шестёрка",
+      "nameEn": "Six of Swords",
+      "type": "minor",
+      "image": "swords06.jpg",
+      "meaning": "Переход, помощь.",
+      "reverse": "Задержка."
+    },
+    {
+      "id": "c7",
+      "name": "Мечи Семёрка",
+      "nameEn": "Seven of Swords",
+      "type": "minor",
+      "image": "swords07.jpg",
+      "meaning": "Обман, хитрость.",
+      "reverse": "Искренность."
+    },
+    {
+      "id": "c8",
+      "name": "Мечи Восьмёрка",
+      "nameEn": "Eight of Swords",
+      "type": "minor",
+      "image": "swords08.jpg",
+      "meaning": "Ограничения, блокировка.",
+      "reverse": "Освобождение."
+    },
+    {
+      "id": "c9",
+      "name": "Мечи Девятка",
+      "nameEn": "Nine of Swords",
+      "type": "minor",
+      "image": "swords09.jpg",
+      "meaning": "Тревога, беспокойство.",
+      "reverse": "Излечение."
+    },
+    {
+      "id": "c10",
+      "name": "Мечи Десятка",
+      "nameEn": "Ten of Swords",
+      "type": "minor",
+      "image": "swords10.jpg",
+      "meaning": "Завершение цикла, удар.",
+      "reverse": "Возможность."
+    },
+    {
+      "id": "c11",
+      "name": "Мечи Паж",
+      "nameEn": "Page of Swords",
+      "type": "minor",
+      "image": "swords11.jpg",
+      "meaning": "Новые идеи,好奇心.",
+      "reverse": "Недостаток инициативы."
+    },
+    {
+      "id": "c12",
+      "name": "Мечи Рыцарь",
+      "nameEn": "Knight of Swords",
+      "type": "minor",
+      "image": "swords12.jpg",
+      "meaning": "Активность, действие.",
+      "reverse": "Импульсивность."
+    },
+    {
+      "id": "c13",
+      "name": "Мечи Королева",
+      "nameEn": "Queen of Swords",
+      "type": "minor",
+      "image": "swords13.jpg",
+      "meaning": "Ясность, самодостаточность.",
+      "reverse": "Жесткость."
+    },
+    {
+      "id": "c14",
+      "name": "Мечи Король",
+      "nameEn": "King of Swords",
+      "type": "minor",
+      "image": "swords14.jpg",
+      "meaning": "Авторитет, справедливость.",
+      "reverse": "Жесткость."
+    },
+    {
+      "id": "p1",
+      "name": "Пентакли Туз",
+      "nameEn": "Ace of Pentacles",
+      "type": "minor",
+      "image": "pents01.jpg",
+      "meaning": "Изобилие, материальный успех.",
+      "reverse": "Упущенная возможность."
+    },
+    {
+      "id": "p2",
+      "name": "Пентакли Двойка",
+      "nameEn": "Two of Pentacles",
+      "type": "minor",
+      "image": "pents02.jpg",
+      "meaning": "Баланс, адаптация.",
+      "reverse": "Дисбаланс."
+    },
+    {
+      "id": "p3",
+      "name": "Пентакли Тройка",
+      "nameEn": "Three of Pentacles",
+      "type": "minor",
+      "image": "pents03.jpg",
+      "meaning": "Сотрудничество, мастерство.",
+      "reverse": "Некачественная работа."
+    },
+    {
+      "id": "p4",
+      "name": "Пентакли Четверка",
+      "nameEn": "Four of Pentacles",
+      "type": "minor",
+      "image": "pents04.jpg",
+      "meaning": "Экономия, стабильность.",
+      "reverse": "Жадность."
+    },
+    {
+      "id": "p5",
+      "name": "Пентакли Пятёрка",
+      "nameEn": "Five of Pentacles",
+      "type": "minor",
+      "image": "pents05.jpg",
+      "meaning": "Бедность, одиночество.",
+      "reverse": "Поддержка."
+    },
+    {
+      "id": "p6",
+      "name": "Пентакли Шестёрка",
+      "nameEn": "Six of Pentacles",
+      "type": "minor",
+      "image": "pents06.jpg",
+      "meaning": "Щедрость, благотворительность.",
+      "reverse": "Несправедливость."
+    },
+    {
+      "id": "p7",
+      "name": "Пентакли Семёрка",
+      "nameEn": "Seven of Pentacles",
+      "type": "minor",
+      "image": "pents07.jpg",
+      "meaning": "Терпение, оценка.",
+      "reverse": "Нетерпение."
+    },
+    {
+      "id": "p8",
+      "name": "Пентакли Восьмёрка",
+      "nameEn": "Eight of Pentacles",
+      "type": "minor",
+      "image": "pents08.jpg",
+      "meaning": "Работа, мастерство.",
+      "reverse": "Самодовольство."
+    },
+    {
+      "id": "p9",
+      "name": "Пентакли Девятка",
+      "nameEn": "Nine of Pentacles",
+      "type": "minor",
+      "image": "pents09.jpg",
+      "meaning": "Роскошь, независимость.",
+      "reverse": "Одиночество."
+    },
+    {
+      "id": "p10",
+      "name": "Пентакли Десятка",
+      "nameEn": "Ten of Pentacles",
+      "type": "minor",
+      "image": "pents10.jpg",
+      "meaning": "Наследие, семейное богатство.",
+      "reverse": "Разлад."
+    },
+    {
+      "id": "p11",
+      "name": "Пентакли Паж",
+      "nameEn": "Page of Pentacles",
+      "type": "minor",
+      "image": "pents11.jpg",
+      "meaning": "Изучение, проактивность.",
+      "reverse": "Отсутствие прогресса."
+    },
+    {
+      "id": "p12",
+      "name": "Пентакли Рыцарь",
+      "nameEn": "Knight of Pentacles",
+      "type": "minor",
+      "image": "pents12.jpg",
+      "meaning": "Надежность, трудолюбие.",
+      "reverse": "Медлительность."
+    },
+    {
+      "id": "p13",
+      "name": "Пентакли Королева",
+      "nameEn": "Queen of Pentacles",
+      "type": "minor",
+      "image": "pents13.jpg",
+      "meaning": "Изобильная, щедрая.",
+      "reverse": "Изоляция."
+    },
+    {
+      "id": "p14",
+      "name": "Пентакли Король",
+      "nameEn": "King of Pentacles",
+      "type": "minor",
+      "image": "pents14.jpg",
+      "meaning": "Богатство, безопасность.",
+      "reverse": "Нестабильность."
+    },
+    {
+      "id": "w1",
+      "name": "Жезлы Туз",
+      "nameEn": "Ace of Wands",
+      "type": "minor",
+      "image": "wands01.jpg",
+      "meaning": "Начало, творческая энергия.",
+      "reverse": "Блокировка."
+    },
+    {
+      "id": "w2",
+      "name": "Жезлы Двойка",
+      "nameEn": "Two of Wands",
+      "type": "minor",
+      "image": "wands02.jpg",
+      "meaning": "Планирование, выбор.",
+      "reverse": "Страх."
+    },
+    {
+      "id": "w3",
+      "name": "Жезлы Тройка",
+      "nameEn": "Three of Wands",
+      "type": "minor",
+      "image": "wands03.jpg",
+      "meaning": "Ожидание, расширение.",
+      "reverse": "Задержка."
+    },
+    {
+      "id": "w4",
+      "name": "Жезлы Четверка",
+      "nameEn": "Four of Wands",
+      "type": "minor",
+      "image": "wands04.jpg",
+      "meaning": "Праздник, безопасность.",
+      "reverse": "Переход."
+    },
+    {
+      "id": "w5",
+      "name": "Жезлы Пятёрка",
+      "nameEn": "Five of Wands",
+      "type": "minor",
+      "image": "wands05.jpg",
+      "meaning": "Конкуренция, конфликт.",
+      "reverse": "Сотрудничество."
+    },
+    {
+      "id": "w6",
+      "name": "Жезлы Шестёрка",
+      "nameEn": "Six of Wands",
+      "type": "minor",
+      "image": "wands06.jpg",
+      "meaning": "Победа, признание.",
+      "reverse": "Непризнание."
+    },
+    {
+      "id": "w7",
+      "name": "Жезлы Семёрка",
+      "nameEn": "Seven of Wands",
+      "type": "minor",
+      "image": "wands07.jpg",
+      "meaning": "Защита, упорство.",
+      "reverse": "Потеря."
+    },
+    {
+      "id": "w8",
+      "name": "Жезлы Восьмёрка",
+      "nameEn": "Eight of Wands",
+      "type": "minor",
+      "image": "wands08.jpg",
+      "meaning": "Скорость, прогресс.",
+      "reverse": "Задержка."
+    },
+    {
+      "id": "w9",
+      "name": "Жезлы Девятка",
+      "nameEn": "Nine of Wands",
+      "type": "minor",
+      "image": "wands09.jpg",
+      "meaning": "Упорство, защита.",
+      "reverse": "Напряжение."
+    },
+    {
+      "id": "w10",
+      "name": "Жезлы Десятка",
+      "nameEn": "Ten of Wands",
+      "type": "minor",
+      "image": "wands10.jpg",
+      "meaning": "Нагрузка, ответственность.",
+      "reverse": "Делегирование."
+    },
+    {
+      "id": "w11",
+      "name": "Жезлы Паж",
+      "nameEn": "Page of Wands",
+      "type": "minor",
+      "image": "wands11.jpg",
+      "meaning": "Вдохновение, свобода.",
+      "reverse": "Рассеянность."
+    },
+    {
+      "id": "w12",
+      "name": "Жезлы Рыцарь",
+      "nameEn": "Knight of Wands",
+      "type": "minor",
+      "image": "wands12.jpg",
+      "meaning": "Энергия, энтузиазм.",
+      "reverse": "Недостаток терпения."
+    },
+    {
+      "id": "w13",
+      "name": "Жезлы Королева",
+      "nameEn": "Queen of Wands",
+      "type": "minor",
+      "image": "wands13.jpg",
+      "meaning": "Самоуверенность, энергия.",
+      "reverse": "Доминирование."
+    },
+    {
+      "id": "w14",
+      "name": "Жезлы Король",
+      "nameEn": "King of Wands",
+      "type": "minor",
+      "image": "wands14.jpg",
+      "meaning": "Лидерство, видение.",
+      "reverse": "Импульсивность."
+    },
+    {
+      "id": "cups1",
+      "name": "Кубки Туз",
+      "nameEn": "Ace of Cups",
+      "type": "minor",
+      "image": "cups01.jpg",
+      "meaning": "Начало эмоций, любовь.",
+      "reverse": "Незаинтересованность."
+    },
+    {
+      "id": "cups2",
+      "name": "Кубки Двойка",
+      "nameEn": "Two of Cups",
+      "type": "minor",
+      "image": "cups02.jpg",
+      "meaning": "Партнерство, привлечение.",
+      "reverse": "Разрыв."
+    },
+    {
+      "id": "cups3",
+      "name": "Кубки Тройка",
+      "nameEn": "Three of Cups",
+      "type": "minor",
+      "image": "cups03.jpg",
+      "meaning": "Дружба, радость.",
+      "reverse": "Излишества."
+    },
+    {
+      "id": "cups4",
+      "name": "Кубки Четверка",
+      "nameEn": "Four of Cups",
+      "type": "minor",
+      "image": "cups04.jpg",
+      "meaning": "Апатия, медитация.",
+      "reverse": "Новая возможность."
+    },
+    {
+      "id": "cups5",
+      "name": "Кубки Пятёрка",
+      "nameEn": "Five of Cups",
+      "type": "minor",
+      "image": "cups05.jpg",
+      "meaning": "Потеря, сожаление.",
+      "reverse": "Принятие."
+    },
+    {
+      "id": "cups6",
+      "name": "Кубки Шестёрка",
+      "nameEn": "Six of Cups",
+      "type": "minor",
+      "image": "cups06.jpg",
+      "meaning": "Ностальгия, невинность.",
+      "reverse": "Блокировка."
+    },
+    {
+      "id": "cups7",
+      "name": "Кубки Семёрка",
+      "nameEn": "Seven of Cups",
+      "type": "minor",
+      "image": "cups07.jpg",
+      "meaning": "Иллюзии, фантазии.",
+      "reverse": "Фокус."
+    },
+    {
+      "id": "cups8",
+      "name": "Кубки Восьмёрка",
+      "nameEn": "Eight of Cups",
+      "type": "minor",
+      "image": "cups08.jpg",
+      "meaning": "Уход, эмоциональный переход.",
+      "reverse": "Удержание."
+    },
+    {
+      "id": "cups9",
+      "name": "Кубки Девятка",
+      "nameEn": "Nine of Cups",
+      "type": "minor",
+      "image": "cups09.jpg",
+      "meaning": "Желания, удовлетворение.",
+      "reverse": "Несбывшиеся желания."
+    },
+    {
+      "id": "cups10",
+      "name": "Кубки Десятка",
+      "nameEn": "Ten of Cups",
+      "type": "minor",
+      "image": "cups10.jpg",
+      "meaning": "Счастье, гармония.",
+      "reverse": "Дисгармония."
+    },
+    {
+      "id": "cups11",
+      "name": "Кубки Паж",
+      "nameEn": "Page of Cups",
+      "type": "minor",
+      "image": "cups11.jpg",
+      "meaning": "Творчество, интуиция.",
+      "reverse": "Застой."
+    },
+    {
+      "id": "cups12",
+      "name": "Кубки Рыцарь",
+      "nameEn": "Knight of Cups",
+      "type": "minor",
+      "image": "cups12.jpg",
+      "meaning": "Романтика, эмоции.",
+      "reverse": "Нереалистичность."
+    },
+    {
+      "id": "cups13",
+      "name": "Кубки Королева",
+      "nameEn": "Queen of Cups",
+      "type": "minor",
+      "image": "cups13.jpg",
+      "meaning": "Эмпатия, интуиция.",
+      "reverse": "Зависимость."
+    },
+    {
+      "id": "cups14",
+      "name": "Кубки Король",
+      "nameEn": "King of Cups",
+      "type": "minor",
+      "image": "cups14.jpg",
+      "meaning": "Эмоциональная стабильность.",
+      "reverse": "Манипуляция."
+    }
+  ]
+}
